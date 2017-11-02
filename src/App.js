@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import DishList from './Components/DishList/DishList'
+import StaffList from './Components/StaffList/StaffList'
 
 class App extends Component {
   render() {
@@ -13,7 +14,7 @@ class App extends Component {
         </div>
 
         <div className="col-md-6">
-          <p>Our Staff</p>
+          <StaffList />
         </div>
         
       </div>

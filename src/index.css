@@ -8,3 +8,11 @@ footer {
   background-color: black;
   color: white;
 }
+
+p {
+  text-align: left;
+}
+
+h1 {
+  text-align: left;
+}
