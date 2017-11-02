@@ -16,3 +16,27 @@ footer {
   color: white;
   min-height: 400px;
 }
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.logo-name {
+  display: inline;
+  float: left;
+  font-size: 2em;
+  font-weight: bolder;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+.always-open {
+  display: inline;
+  float: right;
+  color: red;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-right: 20px;
+
+}
