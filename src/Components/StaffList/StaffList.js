@@ -7,7 +7,7 @@ import theStaff from './theStaff'
 class StaffList extends React.Component {
   render (){
     return (
-      <div className='staffList'>
+      <div className='staff-list media'>
         <h1>Our Staff</h1>
         {(theStaff.length) ? theStaff.map((staff, i) =>
           <Staff key={i}

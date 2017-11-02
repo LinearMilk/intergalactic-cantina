@@ -1,17 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-}
-
-footer {
-  background-color: gray;
-  color: white;
-}
-
-footer img {
-  width: 80%;
-  margin-bottom: 30px;
+  font-family: 'Roboto';
+  font-size: 16px;
 }
 
 p {
@@ -20,6 +11,9 @@ p {
 
 h1 {
   text-align: left;
+  color: #1d0902;
+  font-family: 'Condiment';
+  text-decoration: underline;
 }
 
 .jumbotron {
@@ -35,12 +29,14 @@ h1 {
 }
 
 .logo-name {
+  font-family: 'Condiment';
+  color: #e1562d;
   display: inline;
   float: left;
   font-size: 2em;
   font-weight: bolder;
   margin-left: 50px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .always-open {
@@ -52,4 +48,57 @@ h1 {
   margin-top: 10px;
   margin-right: 20px;
 
+}
+
+.navbar-default {
+  background: url('/img/bg.jpg') repeat #a7a79e;
+  border-color: #1d0902;
+  border-radius: 0px;
+}
+
+.neon {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  color: rgba(255,255,255,1);
+  text-decoration: normal;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #fff200 , 0 0 70px #ffe100 , 0 0 80px #f6ff00 , 0 0 100px #ffd800 ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+footer {
+  background: url('/img/bg.jpg') repeat #a7a79e;
+  color: white;
+}
+
+footer h2 {
+  color: #e1562d;
+  padding: 15px 0px;
+}
+
+footer img {
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  
+  
+  display: block;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+  -o-transition: border .2s ease-in-out;
+  transition: border .2s ease-in-out;
 }
