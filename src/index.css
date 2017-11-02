@@ -9,6 +9,7 @@ footer {
   color: white;
 }
 
+
 p {
   text-align: left;
 }
@@ -16,3 +17,12 @@ p {
 h1 {
   text-align: left;
 }
+
+.jumbotron {
+  background-image: url('/img/prodigium_by_taenaron.jpg') ;
+  background-size: cover;
+  background-color: black;
+  color: white;
+  min-height: 400px;
+}
+
