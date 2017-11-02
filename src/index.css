@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto';
-  font-size: 16px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 2em;
 }
 
 p {
@@ -12,7 +12,7 @@ p {
 h1 {
   text-align: left;
   color: #1d0902;
-  font-family: 'Condiment';
+  font-family: 'Saira', sans-serif;
   text-decoration: underline;
 }
 
@@ -29,7 +29,7 @@ h1 {
 }
 
 .logo-name {
-  font-family: 'Condiment';
+  font-family: 'Saira', sans-serif;
   color: #e1562d;
   display: inline;
   float: left;
