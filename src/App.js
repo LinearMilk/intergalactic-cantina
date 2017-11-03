@@ -12,7 +12,7 @@ class App extends Component {
           <LunchDishList />
         </div>
 
-        <div className="col-md-6">
+        <div className="col-md-5">
           <StaffList />
         </div>
 

@@ -1,3 +1,24 @@
+.staff-container {
+
+}
+
 .thumbnail {
   height: 200px;
+  float: left;
+  margin: 0px 15px 15px 0px;
+}
+
+.staff-info {
+  margin-top: 10px;
+}
+
+.staff-title {
+  text-align: left;
+  font-size: 1.3em;
+  color: #1d0902;
+}
+
+.staff-description {
+  font-size: 90%;
+  color: #636c72;
 }
