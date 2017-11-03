@@ -3,6 +3,7 @@ import './App.css';
 import DishList from './Components/DishList/DishList';
 import StaffList from './Components/StaffList/StaffList';
 import LunchDishList from './Components/LunchDishList/LunchDishList';
+import DinnerDishList from './Components/DinnerDishList/DinnerDishList';
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App">
         <div className="col-md-6">
           <LunchDishList />
+          <DinnerDishList />
         </div>
 
         <div className="col-md-5">
