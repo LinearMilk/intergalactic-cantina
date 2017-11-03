@@ -5,8 +5,8 @@ class Dish extends React.Component {
   render (){
     const {name, price, description} = this.props
     return (
-      <div className='dishContainer'>
-        <p>{name} <strong>{price}</strong></p>
+      <div className='dish-container'>
+        <p className='text-capitalize'>{name} <strong>{price}</strong></p>
         <p>{description}</p>
       </div>
     )
