@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import DishList from './Components/DishList/DishList';
 import StaffList from './Components/StaffList/StaffList';
 import LunchDishList from './Components/LunchDishList/LunchDishList';
 import DinnerDishList from './Components/DinnerDishList/DinnerDishList';
