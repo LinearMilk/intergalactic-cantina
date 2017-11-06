@@ -1,5 +1,6 @@
 {
   "name": "the-bitter-space",
+  "homepage" : "http://linearmilk.com/intergalactic/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
