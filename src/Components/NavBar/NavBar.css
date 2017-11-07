@@ -17,7 +17,7 @@
 }
 
 .navbar-default {
-  background: url('/img/bg.jpg') repeat #a7a79e;
+  background: url('../../img/bg.jpg') repeat #a7a79e;
   border-color: #1d0902;
   border-radius: 0px;
 }
@@ -40,7 +40,7 @@
 }
 
 .hero-image {
-  background-image: url('/img/prodigium_by_taenaron.jpg') ;
+  background-image: url('../../img/prodigium_by_taenaron.jpg') ;
   background-color: black;
 
   /* Set a specific height */
