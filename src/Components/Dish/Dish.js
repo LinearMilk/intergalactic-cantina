@@ -16,7 +16,7 @@ class Dish extends React.Component {
         
         <ul className="list-inline">
         {(tags.length) ? tags.map((tag,i) =>
-          <li className={"list-inline-item " + tag}>{tag}</li>
+          <li className={"list-inline-item " + tag} key={i}>{tag}</li>
         ) : ""
         }
         </ul>

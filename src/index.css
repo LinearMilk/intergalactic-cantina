@@ -85,17 +85,12 @@ footer img {
   width: 80%;
   margin-top: 30px;
   margin-bottom: 40px;
+}
 
-
-  display: block;
-  padding: 4px;
-  line-height: 1.42857143;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  -webkit-transition: border .2s ease-in-out;
-  -o-transition: border .2s ease-in-out;
-  transition: border .2s ease-in-out;
+@media(min-width: 768px){
+  footer img {
+    margin-left: 15px;
+  }
 }
 
 @media(max-width: 768px) {
@@ -104,7 +99,7 @@ footer img {
   }
   
   footer img {
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -117,9 +112,5 @@ footer img {
     font-size: 1em;
     float: right;
     margin-bottom: 2px;
-  }
-  
-  footer img {
-    width: 100%;
   }
 }
