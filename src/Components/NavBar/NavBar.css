@@ -1,0 +1,72 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-brand {
+  font-family: 'Saira', sans-serif;
+  color: #e1562d;
+  font-size: 2em;
+  font-weight: bolder;
+  margin-top: 5px;
+}
+
+.always-open {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.navbar-default {
+  background: url('/img/bg.jpg') repeat #a7a79e;
+  border-color: #1d0902;
+  border-radius: 0px;
+}
+
+.neon {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  color: rgba(255,255,255,1);
+  text-decoration: normal;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #fff200 , 0 0 70px #ffe100 , 0 0 80px #f6ff00 , 0 0 100px #ffd800 ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.hero-image {
+  background-image: url('/img/prodigium_by_taenaron.jpg') ;
+  background-color: black;
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@media(max-width: 768px) {
+  .hero-image {
+    height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-image {
+    height: 120px;
+  }
+
+  .always-open {
+    font-size: 1em;
+    float: right;
+    margin-bottom: 2px;
+  }
+}
