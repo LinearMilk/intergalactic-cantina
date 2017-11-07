@@ -16,7 +16,8 @@ class DishList extends React.Component {
           <Dish key={i}
                 name={dish.name}
                 price={dish.price}
-                description={dish.description} />
+                description={dish.description}
+                tags={dish.tags} />
         ) : <p>No Dishes</p>
         }
       </div>

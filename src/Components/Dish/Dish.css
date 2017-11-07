@@ -1,3 +1,18 @@
 .dish-container {
   text-align: left;
 }
+
+.vegan {
+  color: #fff;
+  background-color: #5cb85c;
+}
+
+.non-sentient {
+  color: #fff;
+  background-color: #337ab7;
+}
+
+.meat-only {
+  color: #fff;
+  background-color: #d9534f;
+}
