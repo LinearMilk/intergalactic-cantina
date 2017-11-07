@@ -8,14 +8,14 @@ class NavBar extends React.Component {
         <nav className="navbar navbar-default">
           <div className="container">
             <div className="navbar-header">
-              <a className="navbar-brand" href="#">Intergalactic Diner</a>
+              <a className="navbar-brand" href="/">Intergalactic Diner</a>
             </div>
             <div className="nav navbar-right always-open">
               <span className="neon">Always open!</span>
             </div>
           </div>
         </nav>
-        <div class="hero-image"></div>
+        <div className="hero-image"></div>
       </div>
     )
   }
