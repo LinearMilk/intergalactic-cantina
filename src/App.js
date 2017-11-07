@@ -13,8 +13,8 @@ class App extends Component {
       <div className="App">
       <NavBar />
 
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           <div className="col-md-6">
             <LunchDishList />
             <DinnerDishList />
