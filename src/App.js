@@ -1,23 +1,31 @@
 import React, { Component } from 'react';
 import './App.css';
+import NavBar from './Components/NavBar/NavBar';
+import Footer from './Components/Footer/Footer';
 import StaffList from './Components/StaffList/StaffList';
 import LunchDishList from './Components/LunchDishList/LunchDishList';
 import DinnerDishList from './Components/DinnerDishList/DinnerDishList';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="col-md-6">
-          <LunchDishList />
-          <DinnerDishList />
-        </div>
+      <NavBar />
 
-        <div className="col-md-5">
-          <StaffList />
+      <div class="container">
+        <div class="row">
+          <div className="col-md-6">
+            <LunchDishList />
+            <DinnerDishList />
+          </div>
+          <div className="col-md-5">
+            <StaffList />
+          </div>
         </div>
-
       </div>
+      <Footer />
+    </div>
     );
   }
 }
