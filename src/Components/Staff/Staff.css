@@ -3,7 +3,7 @@
 }
 
 .thumbnail {
-  height: 200px;
+  height: 170px;
   float: left;
   margin: 0px 15px 15px 0px;
 }
@@ -21,4 +21,12 @@
 .staff-description {
   font-size: 90%;
   color: #636c72;
+}
+
+@media(max-width: 768px) {
+  .thumbnail {
+    height: 40%;
+    float: left;
+    margin: 0px 5px 5px 0px;
+  }
 }
