@@ -1,9 +1,10 @@
 {
   "name": "the-bitter-space",
-  "homepage" : "http://linearmilk.com/intergalactic/",
+  "homepage": "http://linearmilk.com/intergalactic/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@backand/vanilla-sdk": "^1.2.15",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-scripts": "1.0.16"
