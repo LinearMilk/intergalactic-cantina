@@ -5,6 +5,7 @@ import Footer from './Components/Footer/Footer';
 import StaffList from './Components/StaffList/StaffList';
 import LunchDishList from './Components/LunchDishList/LunchDishList';
 import DinnerDishList from './Components/DinnerDishList/DinnerDishList';
+import InfoAndHistory from './Components/InfoAndHistory/InfoAndHistory';
 
 
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
         </div>
       </div>
       <Footer />
+      <InfoAndHistory />
     </div>
     );
   }
