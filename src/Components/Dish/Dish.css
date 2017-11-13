@@ -1,5 +1,21 @@
 .dish-container {
   text-align: left;
+  padding-top: 10px;
+}
+
+.dish-info {
+  border-bottom: 1px solid #a6afb5;
+  display: inline-block;
+  width: 100%;
+}
+
+.dish-name {
+  float: left;
+  font-size: 1.2em;
+}
+
+.dish-price {
+  float: right;
 }
 
 .vegan {
