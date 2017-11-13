@@ -11,7 +11,10 @@ class Dish extends React.Component {
 
     return (
       <div className='dish-container'>
-        <p className='text-capitalize'>{name} <strong>{price}</strong></p>
+        <div className='dish-info text-capitalize'>
+            <div className='dish-name'>{name} </div>
+            <div className='dish-price'>{price}</div>
+        </div>
         <p>{description}</p>
         
         <ul className="list-inline">
