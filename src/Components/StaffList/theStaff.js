@@ -2,7 +2,7 @@ let theStaff = [
   {
     thumbnail: 'chewbacca.jpg',
     name: 'Chewbacca',
-    title: 'Cheff',
+    title: 'Chef',
     description: 'RRRAARRWHHGWWR.'
   },
   {
