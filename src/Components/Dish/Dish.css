@@ -7,6 +7,7 @@
   border-bottom: 1px solid #a6afb5;
   display: inline-block;
   width: 100%;
+  position:relative;
 }
 
 .dish-name {
@@ -16,6 +17,26 @@
 
 .dish-price {
   float: right;
+  position: absolute;
+  bottom:0;
+  right: 0;
+}
+
+.dish-container li {
+  margin-left: 5px;
+}
+
+.icon {
+  line-height: 10px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  color: white;
+  margin-bottom: 3px;
+  margin-right: 5px;
 }
 
 .vegan {
