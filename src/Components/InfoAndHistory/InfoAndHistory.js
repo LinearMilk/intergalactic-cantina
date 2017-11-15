@@ -2,7 +2,7 @@ import React from 'react';
 import './InfoAndHistory.css';
 
 class InfoAndHistory extends React.Component {
-  render (){
+  render() {
     return (
       <div className='container history-container'>
         <div className='history-begining'>
