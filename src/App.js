@@ -11,21 +11,21 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <NavBar />
+        <NavBar />
 
-      <div className="container">
-        <div className="row">
-          <div className="col-md-6">
-            <LunchDishList />
-            <DinnerDishList />
-          </div>
-          <div className="col-md-5">
-            <StaffList />
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <LunchDishList />
+              <DinnerDishList />
+            </div>
+            <div className="col-md-5">
+              <StaffList />
+            </div>
           </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
     );
   }
 }
