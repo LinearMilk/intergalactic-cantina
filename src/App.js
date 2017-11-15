@@ -9,18 +9,18 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <NavBar />
-        <Router>
-            <Switch>
-              <Route exact path="/" component={Main}/>
-              <Route path="/history" component={InfoAndHistory}/>
-              <Route path="/intergalactic/history" component={InfoAndHistory}/>
-              <Route exact path="*" component={Main}/>
-            </Switch>
-        </Router>
-        <Footer />
-      </div>
+      <Router>
+        <div className="App">
+          <NavBar />
+          <Switch>
+            <Route exact path="/" component={Main}/>
+            <Route path="/history" component={InfoAndHistory}/>
+            <Route path="/intergalactic/history" component={InfoAndHistory}/>
+            <Route exact path="*" component={Main}/>
+          </Switch>
+          <Footer />
+        </div>
+      </Router>
     );
   }
 }
