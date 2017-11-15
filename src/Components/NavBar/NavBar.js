@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './NavBar.css';
 
 class NavBar extends React.Component {
@@ -8,7 +9,7 @@ class NavBar extends React.Component {
         <nav className="navbar navbar-default">
           <div className="container">
             <div className="navbar-header">
-              <a className="navbar-brand" href="/">Intergalactic Diner</a>
+              <Link to="/" className="navbar-brand">Intergalactic Diner</Link>
             </div>
             <div className="nav navbar-right always-open">
               <span className="neon">Always open!</span>
