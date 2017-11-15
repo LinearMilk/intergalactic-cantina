@@ -15,6 +15,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Main}/>
               <Route path="/history" component={InfoAndHistory}/>
+              <Route path="/intergalactic/history" component={InfoAndHistory}/>
               <Route exact path="*" component={Main}/>
             </Switch>
         </Router>
