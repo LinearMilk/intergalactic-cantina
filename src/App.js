@@ -4,7 +4,7 @@ import NavBar from './Components/NavBar/NavBar';
 import Footer from './Components/Footer/Footer';
 import Main from './Components/Main/Main';
 import InfoAndHistory from './Components/InfoAndHistory/InfoAndHistory';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 class App extends Component {
   render() {
@@ -12,11 +12,12 @@ class App extends Component {
       <div className="App">
         <NavBar />
         <Router>
-          <div>
-            <Route exact path="/" component={Main}/>
-            <Route path="/history" component={InfoAndHistory}/>
-            <Route exact path="*" component={Main}/>
-          </div>
+            <Switch>
+              <Route exact path="/" component={Main}/>
+              <Route path="/history" component={InfoAndHistory}/>
+              <Route path="/intergalactic/history" component={InfoAndHistory}/>
+              <Route exact path="*" component={Main}/>
+            </Switch>
         </Router>
         <Footer />
       </div>
