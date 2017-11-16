@@ -5,7 +5,9 @@ import DishList from '../DishList/DishList';
 class LunchDishList extends React.Component {
   render (){
     return (
-      <DishList type='lunch' />
+      <div className="container">
+        <DishList type='lunch' />
+      </div>
     )
   }
 }
