@@ -6,6 +6,7 @@ import Main from './Components/Main/Main';
 import InfoAndHistory from './Components/InfoAndHistory/InfoAndHistory';
 import LunchDishList from './Components/LunchDishList/LunchDishList';
 import DinnerDishList from './Components/DinnerDishList/DinnerDishList';
+import Page404 from './Components/Page404/Page404';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 class App extends Component {
@@ -22,7 +23,7 @@ class App extends Component {
             <Route path="/intergalactic/lunch" component={LunchDishList}/>
             <Route path="/dinner" component={DinnerDishList}/>
             <Route path="/intergalactic/dinner" component={DinnerDishList}/>
-            <Route exact path="*" component={Main}/>
+            <Route component={Page404}/>
           </Switch>
           <Footer />
         </div>
