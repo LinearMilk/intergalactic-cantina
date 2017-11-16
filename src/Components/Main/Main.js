@@ -11,8 +11,7 @@ class Main extends Component {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <LunchDishList />
-            <DinnerDishList />
+            
           </div>
           <div className="col-md-5">
             <StaffList />
