@@ -1,0 +1,42 @@
+.teaser-image {
+  width: 100%;
+}
+
+.teaser-container {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  background-color: #0a0a0a;
+}
+
+.teaser-container p,
+.teaser-container a {
+  margin: 10px;
+  color: white;
+}
+
+.teaser-container a {
+  color: #e1562d;
+  
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding-right: 15px;
+}
+
+@media(max-width: 768px) {
+  .teaser-container p {
+    min-height: 50px;
+  }
+}
+
+@media(min-width: 768px) {
+  .teaser-container {
+    min-height: 280px;
+  }
+}
+
+@media(min-width: 1200px) {
+  .teaser-container {
+    min-height: 320px;
+  }
+}

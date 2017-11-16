@@ -7,12 +7,12 @@ class Staff extends React.Component {
     return (
       <div className='staff-container'>
         <div className='staff-image media-left'>
-          <img className="staff-picture" src={`./img/staff/${thumbnail}`} alt={name} />
+          <img className='staff-picture' src={`./img/staff/${thumbnail}`} alt={name} />
         </div>
         <div className='staff-info media-body'>
           <h5 className='staff-title'>{title}</h5>
           <p>{name}</p>
-          <p className='staff-description'>"{description}"</p>
+          <p className='staff-description'>&ldquo; {description} &rdquo;</p>
         </div>
       </div>
     )
