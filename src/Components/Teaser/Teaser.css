@@ -1,3 +1,8 @@
+.teaser-link-div:hover,
+.teaser-link-div:focus {
+  text-decoration: none;
+}
+
 .teaser-image {
   width: 100%;
 }
@@ -6,6 +11,10 @@
   margin-top: 20px;
   padding-bottom: 10px;
   background-color: #0a0a0a;
+}
+
+.teaser-link {
+  font-size: 0.9em;
 }
 
 .teaser-container p,

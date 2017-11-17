@@ -6,11 +6,13 @@ class Teaser extends React.Component {
   render() {
     const {image, title, description, link} = this.props
     return (
-      <div className='teaser-container'>
-        <img className='teaser-image' src={`./img/teaser/${image}`} alt={image} />
-        <p>{description}</p>
-        <Link to={link} className='teaser-link'>{title}</Link>
-      </div>
+      <Link to={link} className='teaser-link-div'>
+        <div className='teaser-container'>
+          <img className='teaser-image' src={`./img/teaser/${image}`} alt={image} />
+          <p>{description}</p>
+          <Link to={link} className='teaser-link'>Se our {title}</Link>
+        </div>
+      </Link>
     )
   }
 }
