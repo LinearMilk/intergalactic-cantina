@@ -3,6 +3,16 @@
   padding-top: 10px;
 }
 
+.dish-content {
+  margin-bottom: 15px;
+}
+
+.dish-subcategory {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
 .dish-info {
   border-bottom: 1px solid #a6afb5;
   display: inline-block;
