@@ -21,6 +21,7 @@ class App extends Component {
             <Route path="/history" component={InfoAndHistory}/>
             <Route path="/lunch" component={LunchDishList}/>
             <Route path="/dinner" component={DinnerDishList}/>
+            <Route path="/beverages" component={BeveragesList}/>
             <Route component={Page404}/>
           </Switch>
           <Footer />
