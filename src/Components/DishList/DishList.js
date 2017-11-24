@@ -33,8 +33,6 @@ class DishList extends React.Component {
               content={dish.content} />
       ) : <p>No Dishes</p>
       }
-
-
     </div>
     )
   }
