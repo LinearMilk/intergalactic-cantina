@@ -18,18 +18,22 @@
 }
 
 .teaser-container p,
-.teaser-container a {
+.teaser-container .teaser-link {
   margin: 10px;
   color: white;
 }
 
-.teaser-container a {
+.teaser-container .teaser-link {
   color: #e1562d;
-  
   position: absolute;
   bottom: 0px;
   right: 0px;
   padding-right: 15px;
+}
+
+.teaser-container .teaser-link:hover,
+.teaser-container .teaser-link:focus {
+  color: white;
 }
 
 @media(max-width: 768px) {
