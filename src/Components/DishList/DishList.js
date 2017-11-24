@@ -29,12 +29,12 @@ class DishList extends React.Component {
       <h1 className='text-capitalize'>{this.props.type} menu </h1>
       {(dishes.length) ? dishes.map((dish, i) =>
         <Dish key={i}
-              name={dish.name}
-              price={dish.price}
-              description={dish.description}
-              tags={dish.tags} />
+              subcategory={dish.subcategory}
+              content={dish.content} />
       ) : <p>No Dishes</p>
       }
+
+
     </div>
     )
   }

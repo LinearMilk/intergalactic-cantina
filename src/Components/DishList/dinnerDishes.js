@@ -17,4 +17,4 @@ let dinnerDishes = [
     tags: ['meat-only', 'non-sentient']
   }];
 
-export default dinnerDishes;
+  export default dinnerDishes;
