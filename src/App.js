@@ -18,11 +18,8 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Main}/>
             <Route path="/history" component={InfoAndHistory}/>
-            <Route path="/intergalactic/history" component={InfoAndHistory}/>
             <Route path="/lunch" component={LunchDishList}/>
-            <Route path="/intergalactic/lunch" component={LunchDishList}/>
             <Route path="/dinner" component={DinnerDishList}/>
-            <Route path="/intergalactic/dinner" component={DinnerDishList}/>
             <Route component={Page404}/>
           </Switch>
           <Footer />
