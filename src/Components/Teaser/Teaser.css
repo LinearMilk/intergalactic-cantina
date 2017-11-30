@@ -38,7 +38,7 @@
 
 @media(max-width: 768px) {
   .teaser-container p {
-    min-height: 50px;
+    min-height: 80px;
   }
 }
 

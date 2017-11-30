@@ -10,7 +10,7 @@ class Teaser extends React.Component {
         <div className='teaser-container'>
           <img className='teaser-image' src={`./img/teaser/${image}`} alt={image} />
           <p>{description}</p>
-          <span className='teaser-link'>Se our {title}</span>
+          <span className='teaser-link'>See our {title}</span>
         </div>
       </Link>
     )
