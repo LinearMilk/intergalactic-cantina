@@ -104,9 +104,5 @@ let beverages = [
   }
 ]},
 ];
-<<<<<<< HEAD
-export default beverages;
-=======
 
 export default beverages;
->>>>>>> refs/remotes/origin/master
