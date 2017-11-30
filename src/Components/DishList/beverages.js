@@ -85,14 +85,7 @@ let beverages = [
     description: 'Warm, irradiated, and flat.',
     tags: ['radioactive']
   }
-
-
-
-
-
 ]},
-
-
 ];
 
 export default beverages;
