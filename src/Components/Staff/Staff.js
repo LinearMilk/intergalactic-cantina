@@ -3,17 +3,29 @@ import './Staff.css';
 
 class Staff extends React.Component {
   render (){
-    const {thumbnail, name, title, description} = this.props
+    const {thumbnail, name, title, thumbnailalign} = this.props
+    const left = (thumbnailalign === 'left');
+    
+    let staffalign = null;
+    if(left) {
+      staffalign = 'media-left';
+    } else {
+      staffalign = 'media-right';
+    }
+    
+    
+    let image = <div className={staffalign}>
+        <img className='staff-picture' src={`./img/staff/${thumbnail}`} alt={name} />
+      </div>;
+    
     return (
-      <div className='staff-container'>
-        <div className='staff-image media-left'>
-          <img className='staff-picture' src={`./img/staff/${thumbnail}`} alt={name} />
-        </div>
+      <div className='staff-container media'>
+        {left ? image : ''}
         <div className='staff-info media-body'>
-          <h5 className='staff-title'>{title}</h5>
-          <p>{name}</p>
-          <p className='staff-description'>&ldquo; {description} &rdquo;</p>
+          <p className='staff-name'>{name}</p>
+          <p className='staff-title'>{title}</p>
         </div>
+        {!left ? image : ''}
       </div>
     )
   }
