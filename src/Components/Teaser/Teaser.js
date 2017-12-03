@@ -5,12 +5,17 @@ import './Teaser.css';
 class Teaser extends React.Component {
   render() {
     const {image, title, description, link} = this.props
+    
+    const style = {
+      backgroundImage: 'url("./img/teaser/'+image+'")'
+    }
+    
     return (
       <Link to={link} className='teaser-link-div'>
         <div className='teaser-container'>
-          <img className='teaser-image' src={`./img/teaser/${image}`} alt={image} />
-          <p>{description}</p>
-          <span className='teaser-link'>See our {title}</span>
+          <div className='teaser-image' style={style}> </div>
+          <p className='teaser-description'>{description}</p>
+          <p className='teaser-link'>See our {title}</p>
         </div>
       </Link>
     )
