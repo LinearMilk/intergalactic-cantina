@@ -4,7 +4,7 @@ import NavBar from './Components/NavBar/NavBar';
 import Footer from './Components/Footer/Footer';
 import Main from './Components/Main/Main';
 import InfoAndHistory from './Components/InfoAndHistory/InfoAndHistory';
-import LunchDishList from './Components/LunchDishList/LunchDishList';
+import SnacksList from './Components/SnacksList/SnacksList';
 import DinnerDishList from './Components/DinnerDishList/DinnerDishList';
 import BeveragesList from './Components/BeveragesList/BeveragesList';
 import Page404 from './Components/Page404/Page404';
@@ -19,7 +19,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Main}/>
             <Route path="/history" component={InfoAndHistory}/>
-            <Route path="/snacks" component={LunchDishList}/>
+            <Route path="/snacks" component={SnacksList}/>
             <Route path="/dinner" component={DinnerDishList}/>
             <Route path="/beverages" component={BeveragesList}/>
             <Route component={Page404}/>

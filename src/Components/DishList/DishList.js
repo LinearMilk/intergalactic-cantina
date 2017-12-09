@@ -2,7 +2,7 @@ import React from 'react';
 import './DishList.css';
 import Dish from '../Dish/Dish';
 import dinnerDishes from './dinnerDishes';
-import lunchDishes from './lunchDishes';
+import snacks from './snacks';
 import beverages from './beverages';
 
 
@@ -12,8 +12,8 @@ class DishList extends React.Component {
     let dishes =[];
     let title = '';
     switch (this.props.type) {
-      case 'lunch':
-        dishes = lunchDishes;
+      case 'snacks':
+        dishes = snacks;
         title = 'Superb Snacks';
         break;
       case 'dinner':

@@ -1,24 +1,24 @@
-let lunchDishes = [
+let snacks = [
   {
-  subcategory: 'lunches 1',
+  subcategory: 'snacks 1',
   content: [
   {
-    name: 'lunch potatoes',
+    name: 'snack potatoes',
     price: '$7',
     description: 'Your old regular spuds. Microwaved to achieved perfect balance between mushy and stone-hard.',
     tags: ['vegan', 'non-sentient']
   }
   ]},
   {
-  subcategory: 'lunches 2',
+  subcategory: 'snacks 2',
   content: [
   {
-    name: 'lunch lentils',
+    name: 'snack lentils',
     price: '$5',
     description: 'Dry split red lentils. Be prepared to do a lot of chewing.',
     tags: ['vegan', 'non-sentient']
   },{
-    name: 'lunch chicken',
+    name: 'snack chicken',
     price: '$20',
     description: 'Space chicken. No one really knows what is is, but it tastes fantasic.',
     tags: ['vegan']
@@ -26,4 +26,4 @@ let lunchDishes = [
   ]}
   ];
 
-export default lunchDishes;
+export default snacks;
