@@ -10,15 +10,19 @@ class DishList extends React.Component {
 
   render (){
     let dishes =[];
+    let title = '';
     switch (this.props.type) {
       case 'lunch':
         dishes = lunchDishes;
+        title = 'Superb Snacks';
         break;
       case 'dinner':
         dishes = dinnerDishes;
+        title = 'Delightful Dinners';
         break;
       case 'beverages':
         dishes = beverages;
+        title = 'Beverages';
         break;
       default:
         break;
@@ -26,7 +30,7 @@ class DishList extends React.Component {
 
   return (
     <div className='dishList'>
-      <h1 className='text-capitalize'>{this.props.type} menu </h1>
+      <h1 className='text-capitalize'>{title}</h1>
       {(dishes.length) ? dishes.map((dish, i) =>
         <Dish key={i}
               subcategory={dish.subcategory}

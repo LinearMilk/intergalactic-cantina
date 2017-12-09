@@ -9,7 +9,7 @@ let teaserItems = [
     image: 'fish-fingers-and-custard.jpg',
     title: 'Superb Snacks',
     description: 'Fish fingers and custard, one of our lunch favourites!',
-    link: '/lunch'
+    link: '/snacks'
   },
   {
     image: 'bantha-milk.jpg',
