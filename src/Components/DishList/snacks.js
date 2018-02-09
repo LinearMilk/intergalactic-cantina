@@ -1,17 +1,13 @@
 let snacks = [
   {
-  subcategory: 'snacks 1',
+  subcategory: '',
   content: [
   {
     name: 'snack potatoes',
     price: '$7',
     description: 'Your old regular spuds. Microwaved to achieved perfect balance between mushy and stone-hard.',
     tags: ['vegan', 'non-sentient']
-  }
-  ]},
-  {
-  subcategory: 'snacks 2',
-  content: [
+  },
   {
     name: 'snack lentils',
     price: '$5',

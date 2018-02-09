@@ -1,17 +1,13 @@
 let dinnerDishes = [
   {
-  subcategory: 'stuff',
+  subcategory: '',
   content: [
   {
     name: 'dinner potatoes',
     price: '$7',
     description: 'You regular spuds. Microwaved to achieved perfect balance between mushy and stone-hard.',
     tags: ['vegan', 'non-sentient']
-  }
-  ]},
-  {
-  subcategory: 'stuff 2',
-  content: [
+  },
   {
     name: 'dinner lentils',
     price: '$5',
