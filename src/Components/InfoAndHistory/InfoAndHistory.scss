@@ -1,14 +1,15 @@
-.history-container img {
-  width: 100%;
-  margin: 15px 0px;
+.history-container {
+  img {
+    width: 100%;
+    margin: 15px 0px;
+  }
+  
+  .image-left {
+    height: 400px;
+    width: auto;
+    margin: 10px 15px 10px 0px;
+  }
 }
-
-.history-container .image-left {
-  height: 400px;
-  width: auto;
-  margin: 10px 15px 10px 0px;
-}
-
 @media(min-width: 992px) {
   .history-begining {
     height: 450px;

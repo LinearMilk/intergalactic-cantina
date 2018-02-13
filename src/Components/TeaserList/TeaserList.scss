@@ -1,5 +1,7 @@
+@import 'styles/variables.scss';
+
 .teaser-list {
-  background-color: #cdcbb2;
+  background-color: $color-bg-light-darker;
   margin-top: 15px;
   padding-bottom: 15px;
 }

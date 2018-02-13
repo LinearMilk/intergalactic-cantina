@@ -1,6 +1,12 @@
+@import 'styles/variables.scss';
+
 .dish-container {
   text-align: left;
   padding-top: 10px;
+  
+    li {
+    margin-left: 5px;
+  }
 }
 
 .dish-content {
@@ -30,10 +36,6 @@
   position: absolute;
   bottom:0;
   right: 0;
-}
-
-.dish-container li {
-  margin-left: 5px;
 }
 
 .icon {

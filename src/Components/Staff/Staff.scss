@@ -1,6 +1,8 @@
+@import 'styles/variables.scss';
+
 .staff-container {
-  background-color: #cdcbb2;
-  border: 1px solid #a4a28e;
+  background-color: $color-bg-light-darker;
+  border: 1px solid $color-border-box;
   margin-bottom: 20px;
 }
 
@@ -8,7 +10,7 @@
   height: 170px;
   float: left;
   margin: 10px 0px 10px 0px;
-  border: 1px solid #a4a28e;
+  border: 1px solid $color-border-box;
 }
 
 .media-left {
@@ -33,13 +35,13 @@
   font-weight: 500;
   margin-top: 30px;
   padding-bottom: 3px;
-  color: #666452;
-  border-bottom: 1px solid #a4a28e;
+  color: $color-bg_dark;
+  border-bottom: 1px solid $color-border-box;
 }
 
 .staff-title {
   margin-top: -5px;
-  color: #666452;
+  color: $color-bg_dark;
 }
 
 @media(max-width: 768px) {
