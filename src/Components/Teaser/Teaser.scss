@@ -40,3 +40,15 @@
 .teaser-container .teaser-link:focus {
   color: white;
 }
+
+@media(min-width: 768px) {
+   .teaser-description  {
+     min-height: 80px;
+   }
+ }
+
+@media(min-width: 992px) {
+   .teaser-description  {
+     min-height: 60px;
+   }
+ }
