@@ -7,11 +7,9 @@ import TeaserList from '../TeaserList/TeaserList';
 class Main extends Component {
   render() {
     return (
-      <div className="container">
-        <div className="row">
-          <TeaserList />
-          <StaffList />
-        </div>
+      <div>
+        <TeaserList />
+        <StaffList />
       </div>
     );
   }
