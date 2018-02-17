@@ -1,7 +1,17 @@
 @import 'styles/variables.scss';
 
-.teaser-list {
+.bg-light-darker {
   background-color: $color-bg-light-darker;
+}
+
+.teaser-list {
   margin-top: 15px;
   padding-bottom: 15px;
+}
+
+@media(min-width: 768px) {
+  .teaser-list {
+    padding-top: 30px;
+    padding-bottom: 45px;
+  }
 }

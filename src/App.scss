@@ -4,9 +4,12 @@ p {
   text-align: left;
 }
 
+h1, h2, h3, h4, h5 {
+  font-family: 'Tangerine', cursive;
+}
+  
 h1 {
-  text-align: left;
-  margin-top: 30px;
-  color: $color-bg_dark;
-  font-family: 'Saira', sans-serif;
+  font-size: 3.5em;
+  margin-top: 45px;
+  margin-bottom: 30px;
 }
