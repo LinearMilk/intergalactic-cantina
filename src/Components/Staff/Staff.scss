@@ -9,7 +9,7 @@
 .staff-picture {
   height: 170px;
   float: left;
-  margin: 10px 0px 10px 0px;
+  margin: 30px 20px;
   border: 1px solid $color-border-box;
 }
 
@@ -44,15 +44,49 @@
   color: $color-bg_dark;
 }
 
+@media(max-width: 400px) {
+  .staff-picture {
+    height: 60%;
+    float: left;
+  }
+  
+  .staff-info {
+    font-size: 0.8em;
+  }
+}
+
 @media(max-width: 768px) {
   .staff-picture {
-    height: 40%;
+    height: 60%;
     float: left;
+    margin: 10px 0px;
+  }
+  
+  .staff-info {
+    padding-top: 30px;
   }
 }
 
 @media(min-width: 768px) {
   .staff-info {
     padding-top: 40px;
+  }
+}
+
+@media(max-width: 992px) {
+  .staff-picture {
+    margin: 20px 10px;
+    height: 140px;
+  }
+  
+  .staff-info {
+    font-size: 0.9em;
+    padding-top: 30px;
+  }
+}
+
+@media(min-width: 992px) { 
+  .staff-info {
+    padding-top: 50px;
   }
 }
