@@ -6,7 +6,7 @@ render(){
   return (
     <footer>
       <div className="container">
-        <h2>Where to Find Us</h2>
+        <h1>Where to Find Us</h1>
         <p>Antennae Galaxies (NGC 4038/NGC 4039), Corvus constellation.</p>
         <div className="row link" data-toggle="modal" data-target="#exampleModal">
           See our location on a map
