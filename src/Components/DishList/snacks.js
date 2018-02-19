@@ -3,22 +3,27 @@ let snacks = [
   subcategory: '',
   content: [
   {
-    name: 'snack potatoes',
-    price: '$7',
-    description: 'Your old regular spuds. Microwaved to achieved perfect balance between mushy and stone-hard.',
+    name: 'lembas',
+    price: '$2',
+    description: 'One will keep a traveler on his feet for a day of long labour, even if he be one of the tall men of Minas Tirith.',
     tags: ['vegan', 'non-sentient']
   },
   {
-    name: 'snack lentils',
+    name: 'fish fingers and custard',
     price: '$5',
-    description: 'Dry split red lentils. Be prepared to do a lot of chewing.',
-    tags: ['vegan', 'non-sentient']
+    description: 'Better than bacon or beans. Unbeatable combination.',
+    tags: ['non-sentient']
   },{
-    name: 'snack chicken',
-    price: '$20',
-    description: 'Space chicken. No one really knows what is is, but it tastes fantasic.',
-    tags: ['vegan']
-  }
+    name: 'egg salad sandwich',
+    price: '$2',
+    description: "You're not gonna eat a sandwich from a truck stop men's room, are you?",
+    tags: ['']
+  },{
+    name: 'cat food',
+    price: 'alien tech',
+    description: "Straight from the can",
+    tags: ['']
+  },
   ]}
   ];
 
