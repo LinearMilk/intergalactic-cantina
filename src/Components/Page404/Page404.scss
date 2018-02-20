@@ -1,7 +1,22 @@
+@import 'styles/variables.scss';
+
 .image-404 {
   padding-top: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 80%;
+  max-width: 40%;
+}
+
+
+@media(max-width: 768px) {
+  .image-404 {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .image-404 {
+    max-width: 90%;
+  }
 }
