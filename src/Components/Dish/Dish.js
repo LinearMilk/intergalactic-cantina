@@ -15,16 +15,25 @@ class Dish extends React.Component {
                 <div className='dish-price'>{dish.price}</div>
               </div>
               <p>{dish.description}</p>
-              <ul className="list-inline">        
+              <ul className="list-inline">
                 {(dish.tags.length) ? dish.tags.map((tag,i) =>
                   <li className={"list-inline-item " + tag} key={i}>
                       <span className='icon'>
-                        {(tag) === 'vegan' ?
-                          <i className="fa fa-check" aria-hidden="true"></i>
-                         : (tag) === 'meat-only' ?
-                          <i className="fa fa-male" aria-hidden="true"></i>
-                         :
+                        {(tag) === 'plant-based' ?
                           <i className="fa fa-leaf" aria-hidden="true"></i>
+                          : (tag) === 'trekkie' ?
+                            <i className="fa fa-hand-spock-o" aria-hidden="true"></i>
+                          : (tag) === 'terran' ?
+                            <i className="fa fa-globe" aria-hidden="true"></i>
+                          : (tag) === 'rebel' ?
+                            <i className="fa fa-rebel" aria-hidden="true"></i>
+                          : (tag) === 'alcoholic' ?
+                           <i className="fa fa-percent" aria-hidden="true"></i>
+                          : (tag) === 'magic' ?
+                            <i className="fa fa-magic" aria-hidden="true"></i>
+                          : (tag) === 'awesome' ?
+                             <i className=" fa fa-coffee" aria-hidden="true"></i>
+                          :  <i className="fa fa-question" aria-hidden="true"></i>
                         }
                       </span>
                      {tag}

@@ -3,7 +3,7 @@
 .dish-container {
   text-align: left;
   padding-top: 10px;
-  
+
     li {
     margin-left: 5px;
   }
@@ -39,29 +39,54 @@
 }
 
 .icon {
-  line-height: 10px;
   display: inline-block;
   width: 25px;
   height: 25px;
   text-align: center;
   border: 2px solid #fff;
-  border-radius: 100%;
+  border-radius: 10%;
   color: white;
   margin-bottom: 3px;
   margin-right: 5px;
 }
 
-.vegan {
+.plant-based {
   color: #fff;
   background-color: #5cb85c;
 }
 
-.non-sentient {
+.trekkie {
   color: #fff;
   background-color: #337ab7;
 }
 
-.meat-only {
+.terran {
   color: #fff;
-  background-color: #d9534f;
+  background-color: #050068;
+}
+
+.rebel {
+  color: #fff;
+  background-color: #C73B0B;
+}
+
+.alcoholic {
+  color: #fff;
+  background-color: #F7DC6F;
+}
+
+.magic {
+  color: #fff;
+  background-color: #5b1384;
+}
+
+.awesome {
+  color: #fff;
+  background-color: #D01012;
+}
+
+
+.unsure {
+  color: #fff;
+  background-color: #777777;
 }
