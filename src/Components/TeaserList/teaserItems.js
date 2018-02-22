@@ -2,7 +2,7 @@ let teaserItems = [
   {
     image: 'potatoes-algae.jpg',
     title: 'Delightful Dinners',
-    description: 'Featuring: Mars potatoes with fine algae from the Algae planet.',
+    description: 'Featuring: Martian potatoes with fine algae from the Algae planet.',
     link: '/dinner'
   },
   {
@@ -14,7 +14,7 @@ let teaserItems = [
   {
     image: 'bantha-milk.jpg',
     title: 'Beverages',
-    description: 'The most fine drinks in the whole universe',
+    description: 'The finest drinks this side of the galaxy',
     link: '/beverages'
   }
 ];
