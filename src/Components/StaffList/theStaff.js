@@ -7,13 +7,29 @@ let theStaff = [
   {
     thumbnail: 'chewbacca.jpg',
     name: 'Chewbacca',
-    title: 'Master Chef'
+    title: 'Chef de cuisine'
   },
   {
-    thumbnail: 'dalek.jpg',
-    name: 'Dalek',
+    thumbnail: 'neelix.jpg',
+    name: 'Neelix',
+    title: 'Sous-chef'
+  },
+  {
+    thumbnail: 'r2d2.jpg',
+    name: 'R2D2',
     title: 'Head Waiter'
+  },
+  {
+    thumbnail: 'arthur.jpg',
+    name: 'Arthur',
+    title: 'Bartender'
+  },
+  {
+    thumbnail: 'hansolo.jpg',
+    name: 'Han Solo',
+    title: 'Deliveries'
   }
+
 ];
 
 export default theStaff;
