@@ -3,7 +3,7 @@
 .dish-container {
   text-align: left;
   padding-top: 10px;
-  
+
     li {
     margin-left: 5px;
   }
@@ -39,29 +39,43 @@
 }
 
 .icon {
-  line-height: 10px;
   display: inline-block;
-  width: 25px;
-  height: 25px;
+  line-height: 25px;
+  width: 30px;
+  height: 30px;
   text-align: center;
   border: 2px solid #fff;
   border-radius: 100%;
   color: white;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
+  margin-top: 5px;
   margin-right: 5px;
 }
 
-.vegan {
+.list-inline-item {
   color: #fff;
+}
+
+.plant-based {
   background-color: #5cb85c;
 }
 
-.non-sentient {
-  color: #fff;
+.trekkie {
+  background-color: #d8b433;
+}
+
+.terran {
   background-color: #337ab7;
 }
 
-.meat-only {
-  color: #fff;
-  background-color: #d9534f;
+.rebel {
+  background-color: #C73B0B;
+}
+
+.magic {
+  background-color: #77568a;
+}
+
+.unsure {
+  background-color: #777777;
 }
