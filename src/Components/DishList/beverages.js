@@ -6,31 +6,31 @@ let beverages = [
     name: 'klingon bloodwine',
     price: '$7',
     description: 'Perhaps today is a good day to die.',
-    tags: ['trekkie', 'alcoholic']
+    tags: ['trekkie']
   },
   {
     name: 'chateau picard',
     price: '$15',
     description: 'Crimson colour, delicately smoky and spiced aroma, a sophisticated and balanced wine: a vintage of great style',
-    tags: ['terran','trekkie', 'alcoholic']
+    tags: ['terran','trekkie']
   },
   {
     name: 'bajoran springwine',
     price: '$5',
     description: 'Made from traditionally fermented kava juice on Bajor.',
-    tags: ['trekkie', 'alcoholic']
+    tags: ['trekkie']
   },
   {
     name: 'talaxian champagne',
     price: '$150',
     description: 'This very rare Talaxian drink made from moon-ripened grapes all the way from Delta quadrant.',
-    tags: [ 'trekkie','alcoholic']
+    tags: [ 'trekkie']
   },
   {
     name: 'gamzian wine',
     price: '$25',
     description: "A classic made famous by Quark.",
-    tags: ['trekkie','alcoholic']
+    tags: ['trekkie']
   }
 ]},
 {
@@ -40,13 +40,13 @@ let beverages = [
     name: 'benderbrau',
     price: '$6',
     description: 'Cold-fusion steam beer.',
-    tags: ['terran','alcoholic']
+    tags: ['terran']
   },
   {
     name: 'butterbeer',
     price: '$7',
     description: 'Enjoy a foaming mug of this popular wizarding beverage.',
-    tags: ['terran','alcoholic','magic']
+    tags: ['terran','magic']
   }
 ]},
 {
@@ -56,7 +56,7 @@ let beverages = [
     name: 'Acamarian brandy',
     price: '$20',
     description: 'An amber-colored alcoholic beverage from Acamar III',
-    tags: ['trekkie','alcoholic']
+    tags: ['trekkie']
   },
   {
     name: 'Synthehol',
@@ -72,13 +72,13 @@ let beverages = [
     name: 'Pan Galactic Gargle Blaster',
     price: '$500',
     description: 'Best drink in existence. You should NEVER have more than two.',
-    tags: ['alcoholic']
+    tags: ['unsure']
   },
   {
     name: "Finagl's Folly",
     price: '$50',
     description: 'Known from here to Orion.',
-    tags: ['trekkie','terran','alcoholic']
+    tags: ['trekkie','terran']
   }
 ]},
 {
@@ -94,7 +94,7 @@ let beverages = [
     name: 'Overpriced coffee',
     price: '$37',
     description: 'AWESOME!',
-    tags: ['awesome']
+    tags: ['terran']
   },
   {
     name: 'Nuka-cola',

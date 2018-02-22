@@ -27,12 +27,8 @@ class Dish extends React.Component {
                             <i className="fa fa-globe" aria-hidden="true"></i>
                           : (tag) === 'rebel' ?
                             <i className="fa fa-rebel" aria-hidden="true"></i>
-                          : (tag) === 'alcoholic' ?
-                           <i className="fa fa-percent" aria-hidden="true"></i>
                           : (tag) === 'magic' ?
                             <i className="fa fa-magic" aria-hidden="true"></i>
-                          : (tag) === 'awesome' ?
-                             <i className=" fa fa-coffee" aria-hidden="true"></i>
                           :  <i className="fa fa-question" aria-hidden="true"></i>
                         }
                       </span>

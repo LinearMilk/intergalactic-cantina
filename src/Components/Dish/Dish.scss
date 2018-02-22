@@ -40,53 +40,42 @@
 
 .icon {
   display: inline-block;
-  width: 25px;
-  height: 25px;
+  line-height: 25px;
+  width: 30px;
+  height: 30px;
   text-align: center;
   border: 2px solid #fff;
-  border-radius: 10%;
+  border-radius: 100%;
   color: white;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
+  margin-top: 5px;
   margin-right: 5px;
 }
 
-.plant-based {
+.list-inline-item {
   color: #fff;
+}
+
+.plant-based {
   background-color: #5cb85c;
 }
 
 .trekkie {
-  color: #fff;
-  background-color: #337ab7;
+  background-color: #d8b433;
 }
 
 .terran {
-  color: #fff;
-  background-color: #050068;
+  background-color: #337ab7;
 }
 
 .rebel {
-  color: #fff;
   background-color: #C73B0B;
 }
 
-.alcoholic {
-  color: #fff;
-  background-color: #F7DC6F;
-}
-
 .magic {
-  color: #fff;
-  background-color: #5b1384;
+  background-color: #77568a;
 }
-
-.awesome {
-  color: #fff;
-  background-color: #D01012;
-}
-
 
 .unsure {
-  color: #fff;
   background-color: #777777;
 }
