@@ -25,8 +25,8 @@ let theStaff = [
     title: 'Bartender'
   },
   {
-    thumbnail: 'hansolo.jpg',
-    name: 'Han Solo',
+    thumbnail: 'malreynolds.jpg',
+    name: "Malcolm 'Mal' Reynolds",
     title: 'Deliveries'
   }
 
