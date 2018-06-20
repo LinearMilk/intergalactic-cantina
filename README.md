@@ -10,9 +10,9 @@ A simple responsive website for a restaurant at the end of the universe serving 
 
 ## Preview
 
-[![ Screenshot - desktop version](http://linearmilk.com/previews/cantina-desktop.png)](http://intergalactic.linearmilk.com)
+[![ Screenshot - desktop version](http://linearmilk.com/previews/cantina-desktop.jpg)](http://intergalactic.linearmilk.com)
 
-[![ Screenshot - mobile version](http://linearmilk.com/previews/cantina-mobile.png)](http://intergalactic.linearmilk.com)
+[![ Screenshot - mobile version](http://linearmilk.com/previews/cantina-mobile.jpg)](http://intergalactic.linearmilk.com)
 
 ## Download and Installation
 
