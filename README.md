@@ -8,9 +8,11 @@ A simple responsive website for a restaurant at the end of the universe serving 
 [![dependencies Status](https://david-dm.org/LinearMilk/intergalactic-cantina/status.svg)](https://david-dm.org/LinearMilk/intergalactic-cantina)
 [![devDependencies Status](https://david-dm.org/LinearMilk/intergalactic-cantina/dev-status.svg)](https://david-dm.org/LinearMilk/intergalactic-cantina?type=dev)
 
-## Preview
+## Preview - desktop
 
 [![ Screenshot - desktop version](http://linearmilk.com/previews/cantina-desktop.jpg)](http://intergalactic.linearmilk.com)
+
+## Preview - mobile
 
 [![ Screenshot - mobile version](http://linearmilk.com/previews/cantina-mobile.jpg)](http://intergalactic.linearmilk.com)
 
