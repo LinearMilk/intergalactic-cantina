@@ -1,4 +1,4 @@
-# [Cantina](http://flax.linearmilk.com/) - A highly (sci-)fictional restaurant website in [React](https://reactjs.org/).
+# [Cantina](http://intergalactic.linearmilk.com/) - A highly (sci-)fictional restaurant website in [React](https://reactjs.org/).
 
 A simple responsive website for a restaurant at the end of the universe serving a variety of dishes from across the multiverse. Created in [React](https://reactjs.org/) with [Create React App](https://github.com/facebookincubator/create-react-app) and [Bootstrap](https://getbootstrap.com/).
 
